@@ -1,0 +1,56 @@
+# Environment & Secrets
+.env
+*.env
+!.env.example
+!*.env.example
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Python & Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database & Vector Storage
+*.db
+*.sqlite
+*.sqlite3
+ai-service/financial_rag.db
+ai-service/chroma_data/
+chroma_data/
+
+# Uploaded Report Artifacts
+backend/uploads/report-*
+
+# Build Outputs
+frontend/dist/
+backend/dist/
+.vite/
+
+# Editor & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Graphify Cache
+graphify-out/cache/

@@ -52,5 +52,5 @@ backend/dist/
 .DS_Store
 Thumbs.db
 
-# Graphify Cache
-graphify-out/cache/
+# Graphify output & cache
+graphify-out/
